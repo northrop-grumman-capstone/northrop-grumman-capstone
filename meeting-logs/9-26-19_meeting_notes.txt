@@ -1,0 +1,61 @@
+DATE
+9/25/19 - 5:00pm - Think Tank, Idea Forge, Flemming
+
+ATTENDEES
+- Christian (NG)
+- David (NG)
+- Amari Hoogland
+- Justin Davis
+- Kamen Shah
+- Lei Teng
+- Paris Dinh
+- Valliappan Chidambaram
+- Zhengwu Yuan
+
+Objective 
+
+NO GOOGLE DRIVE
+-- April presentation 
+
+- Track vehicle through scenes in a video and classify them (improve by treating inputs dependently)
+- Existing model will change decision throughout the scene
+
+Minimum of 4 algorithms
+	- research new algorithms
+
+Get classification accuracy as high as possible
+history bears some weight, but not too much that the beginning trumps everything
+
+_REQUIRED_
+~Attention (in NLP points to comparing to the whole dataset, embedding)
+~Long short term memory
+~RNN
+~TCNN
+
+Needs to be ~~~efficient~~~
+	- process within seconds
+	- how much data does it need to be performant (best accuracy with fewest inputs)
+	- can handle a little bit of data, missing data
+	- online learning?? 
+	- !!REAL TIME ANSWER!!
+	- autonomous accuracy
+	- ensemble approach?
+	- 80%
+	res-net?
+	- datathroughput and noisy data
+
+- May be provided with hardware
+
+
+IDEAL - 
+1) improve on baseline better than one input in isolation (80%)
+2) comparison of the algorithms with code to back it up (in different aspects - efficiency, accuracy, noise)
+3) best - get to real time 90% classification with 
+4) Collect data maybe??
+
+first steps -- datasets to use, algorithms to compare, where to store
+
+Northrup Grumman - info
+Motto - VALUE PERFORMANCE
+
+Mission - Our vision is to be the most trusted provider of systems and technologies that ensure the security and freedom of our nation and its allies. As the technology leader, we will define the future of defense - from undersea to outer space, and in cyberspace.
