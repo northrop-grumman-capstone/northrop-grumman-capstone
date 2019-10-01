@@ -1,0 +1,16 @@
+Meeting Minutes 5:30 pm, 9-30-2019
+
+
+-- only miss 2 meetings
+
+-- deliverables 
+	- presentation in april
+	- compare different algorithms
+	- self-supervised learning
+	- research different algorithms and choose which to use
+	- gather our own datasets
+	- treat inputs as dependent through time
+	
+-- Justin is team leader/ primary communicator
+
+-- Designate scrum master?? switch every now and then 
