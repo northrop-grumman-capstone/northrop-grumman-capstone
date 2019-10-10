@@ -1,0 +1,22 @@
+meeting minutes 10-7-2019 6pm
+
+Attendees
+
+Lakshya Sharma
+Amari Hoogland
+Justin Davis
+Lei Teng
+Paris Dinh
+Valliappan Chidambaram
+Zhengwu Yuan
+Sofia Lange
+
+- Went over project charter
+
+- Need to finish up a few sections
+
+- Will send to sponsors ASAP
+
+- Look into Waymo dataset
+
+- Decided on using Northrop provided machine instead of Cloud
