@@ -1,0 +1,15 @@
+minutes 10-21-19
+
+Working on requirements doc
+
+need to send an email to sponsor about the type of data to use
+
+also need to ask about use cases
+
+Our requirements doc we need to know the type of data and the labels
+
+Maybe think about clustering??
+
+We need to ssh into the machine, designate tasks, pick up keys
+
+traffic analysis, self-driving car, crimes
