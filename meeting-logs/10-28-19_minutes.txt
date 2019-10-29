@@ -1,0 +1,18 @@
+minutes 10-28-19
+
+Attendees 
+Everyone
+
+Almost finished with requirements doc
+
+might compare different datasets and perspectives for different algorithms
+-- overhead view
+-- front facing
+-- at an angle
+
+traffic cams
+waymos
+we can basically decide whichever datasets we want to use
+figure out use cases?
+we can go get our keys from the building
+
