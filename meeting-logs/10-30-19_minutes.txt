@@ -1,0 +1,34 @@
+meeting minutes 10-30-19
+
+different type of vehicles 
+
+more granular the better - if we can do make/model
+
+truck with a trailer? 
+
+maybe train on less data and see how it performs under that condition 
+
+self-learning?? unsupervised learning?
+
+SAGEM dataset looks good if we can't find the old teams data
+
+we are allowed to publish our results and be in the competition 
+
+how many frames per second? 8-12 fps
+just compare how fast certain algorithms are at real time classification
+
+best days to meet
+ --- tuesday and thursday afternoon -- are ideal
+ tuesday and friday
+ thursday afternoons
+ monday afternoons are usually good
+
+!!!!requirement!!!!
+
+fortify scan on a tensorflow release (sonar cube) 
+	tensorflow is built with basil,
+	configure basil to make fortify calls
+	static code analysis
+	cross-tool
+
+use case is to treat inputs time dependent
