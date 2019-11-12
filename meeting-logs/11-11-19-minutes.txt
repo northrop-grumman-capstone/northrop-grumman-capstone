@@ -1,0 +1,38 @@
+meeting notes 11-11-19
+
+GOALS
+-- have a better understanding of all the algorithms
+-- explore the two (?) sample datasets
+
+gonna go set up SSH and download the datasets and explore them
+
+we are going to decide on a dataset to use by the time we meet with the sponsors
+
+We are going to break off and do a deep dive on the algorithms 
+
+All of us should read up on CNNs, 
+
+Faster RCNN
+- Lei
+- Zhengwu
+
+ATTENTION
+- Sofie
+- Amari
+
+LSTM
+- Kamen
+
+
+TCNN
+- Paris, uNet CNN
+
+
+RNN
+- Justin
+
+
+YOLO
+- Valli
+
+Justin is doing status report for next week
