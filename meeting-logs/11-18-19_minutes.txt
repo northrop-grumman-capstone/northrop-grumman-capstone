@@ -1,0 +1,11 @@
+meeting notes 11-18-19
+
+Everybody is here
+
+We got ssh set up, we need to go into the room to download the datasets
+
+We have all done a bit of research into the algorithms
+
+Worked on presentation slides
+
+Can we get a basic classifier functioning before the presentation? 
