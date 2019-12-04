@@ -1,0 +1,16 @@
+meeting notes 12-02-19
+
+lots of people missing bc Thanksgiving
+
+Grade Breakdown
+12.5 midterm
+12.5 final essay
+25 TA evaluation
+- includes individual attendance, peer evaluation
+25 sponsor evaluation
+25 course work (documents)
+- 5 per document - but actually less bc presentations
+
+we need to finish project plan and system design by the end of the week 
+
+EDA -> train models -> analyze
