@@ -1,0 +1,12 @@
+final meeting 12-9-19
+
+project plan
+
+system diagram
+
+preprocessing steps
+
+	- go through tracking net, get labels for that data from youtube-bb 
+	- if the label is in the set of labels we want, keep that data
+	- downsample to 30 fps
+	
