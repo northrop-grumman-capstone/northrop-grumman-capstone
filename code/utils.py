@@ -68,7 +68,8 @@ def play_formatted(foldername, frame_time, title="video", annotations=None, clas
 	frame_num = 0
 	while(True):
 		try:
-			frame = np.load("{}/{}.npy".format(foldername, frame_num))
+			#frame = np.load("{}/{}.npy".format(foldername, frame_num))
+			frame = cv2.imread("{}/{}.jpeg".format(foldername, frame_num))
 			if(out_size!=None):
 				frame = cv2.resize(frame, out_size)
 			frame_height = frame.shape[0]

@@ -70,14 +70,14 @@ def process_video(infolder, fname, out_anno_file, out_vid_folder):
 						bboxes[i] = (bboxes[i][0], None)
 			if(frame_num%between_writes==0):
 				img = cv2.resize(frame, (out_width, out_height))
-				np.save(out_vid_folder+"/"+str(int(frame_num/between_writes)), img)
+				cv2.imwrite(out_vid_folder+"/"+str(int(frame_num/between_writes))+".jpeg", img)
 				annotations.append([(bbox[0], utils.rect_to_bbox(bbox[1], frame_width, frame_height)) for bbox in bboxes if bbox[1]!=None])
 			frame_num += 1
 		with open(out_anno_file, 'wb') as f:
 			pickle.dump(annotations, f)
 	except Exception:
 		print(traceback.format_exc())
-		
+
 def main():
 	global out_fps, out_width, out_height
 	parser = argparse.ArgumentParser(description="Format Youtube-BB data into something useful.")
@@ -85,11 +85,11 @@ def main():
 	parser.add_argument("dataset_folder", help="folder of dataset to process")
 	parser.add_argument("out_folder", help="folder to output into")
 	parser.add_argument("--fps", type=int, default=5, help="fps at which to extract frames (default 5)")
-	parser.add_argument("--width", type=int, default=-1, help="width of extracted frames (default to height (or 96 if not given))")
+	parser.add_argument("--width", type=int, default=-1, help="width of extracted frames (default to height (or 416 if not given))")
 	parser.add_argument("--height", type=int, default=-1, help="height of extracted frames (default to width)")
 	parser.add_argument("--split", default="70,15,15", help="proportion of dataset to be used for training, validation, and testing (default 70,15,15)")
 	args = parser.parse_args()
-	if(args.width==-1 and args.height==-1): args.width = 96
+	if(args.width==-1 and args.height==-1): args.width = 416
 	if(args.width==-1): args.width = args.height
 	if(args.height==-1): args.height = args.width
 	out_fps = args.fps
